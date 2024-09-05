@@ -80,6 +80,19 @@
             width: 100%;
             bottom: 0;
         }
+        /* New styles for specific text elements */
+        .highlight {
+            color: #4CAF50;
+            font-weight: bold;
+            font-style: italic;
+        }
+        .break {
+            margin-bottom: 20px;
+        }
+        a {
+            color: #2e8b57; /* Цвет ссылок */
+            font-size: 20px; /* Размер текста ссылок */
+        }
     </style>
 </head>
 <body>
@@ -96,7 +109,7 @@
     <main>
         <section id="introduction">
             <h2>Introduction</h2>
-            <p>Healthy eating is about consuming a balanced diet that provides your body with essential nutrients. This includes a variety of foods in the right proportions to maintain health and energy levels.</p>
+            <p class="break">Healthy eating is about consuming a balanced diet that provides your body with essential nutrients. This includes a variety of foods in the right proportions to maintain health and energy levels.</p>
             <img src="https://www.ucsfhealth.org/-/media/project/ucsf/ucsf-health/education/hero/top-ten-foods-for-health-2x.jpg?rev=890e0016d9824d5789d4eaa610ce606e" alt="Healthy Foods">
         </section>
 
@@ -108,7 +121,7 @@
 
         <section id="foods">
             <h2>Healthy Foods</h2>
-            <p>Here is a list of some healthy foods and their nutritional benefits:</p>
+            <p>Here is a list of some <span class="highlight">healthy foods</span> and their nutritional benefits:</p>
             <table>
                 <tr>
                     <th>Food</th>
@@ -117,7 +130,7 @@
                 </tr>
                 <tr>
                     <td>Spinach</td>
-                                        <td>Rich in iron, calcium, and vitamins.</td>
+                    <td>Rich in iron, calcium, and vitamins.</td>
                     <td>23 calories per 100g</td>
                 </tr>
                 <tr>
