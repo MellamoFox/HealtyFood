@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Healthy Eating</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: white;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            position: relative;
+        }
+        header img {
+            display: block;
+            margin: 0 auto;
+            height: 150px;
+            width: auto;
+        }
+        header a {
+            color: green;
+            margin: 0 50px;
+            text-decoration: none;
+            font-size: 24px;
+        }
+        main {
+            padding: 20px;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        h1 {
+            color: #4CAF50;
+            font-size: 50px;
+            text-align: center;
+        }
+        h2 {
+            color: #4CAF50;
+            font-size: 40px;
+        }
+        p {
+            line-height: 1.6;
+            font-size: 20px;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 10px 0;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            background-color: #f4f4f4;
+            font-size: 20px;
+        }
+        table, th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #4CAF50;
+            color: white;
+        }
+        footer {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: relative;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <img src="https://png.pngtree.com/template/20191025/ourmid/pngtree-healthy-food-logo-template-emblem-design-concept-creative-symbol-icon-image_323505.jpg" alt="Logo">
+        <nav>
+            <a href="#introduction">Introduction</a>
+            <a href="#benefits">Benefits</a>
+            <a href="#foods">Healthy Foods</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="introduction">
+            <h2>Introduction</h2>
+            <p>Healthy eating is about consuming a balanced diet that provides your body with essential nutrients. This includes a variety of foods in the right proportions to maintain health and energy levels.</p>
+            <img src="https://www.ucsfhealth.org/-/media/project/ucsf/ucsf-health/education/hero/top-ten-foods-for-health-2x.jpg?rev=890e0016d9824d5789d4eaa610ce606e" alt="Healthy Foods">
+        </section>
+
+        <section id="benefits">
+            <h2>Benefits of Healthy Eating</h2>
+            <p>A healthy diet helps maintain a healthy weight, reduce the risk of chronic diseases, and promote overall well-being.</p>
+            <img src="https://images.unsplash.com/photo-1535914254981-b5012eebbd15" alt="Fruits and Vegetables">
+        </section>
+
+        <section id="foods">
+            <h2>Healthy Foods</h2>
+            <p>Here is a list of some healthy foods and their nutritional benefits:</p>
+            <table>
+                <tr>
+                    <th>Food</th>
+                    <th>Benefits</th>
+                    <th>Nutritional Value</th>
+                </tr>
+                <tr>
+                    <td>Spinach</td>
+                                        <td>Rich in iron, calcium, and vitamins.</td>
+                    <td>23 calories per 100g</td>
+                </tr>
+                <tr>
+                    <td>Blueberries</td>
+                    <td>High in antioxidants and vitamin C.</td>
+                    <td>57 calories per 100g</td>
+                </tr>
+                <tr>
+                    <td>Almonds</td>
+                    <td>Good source of healthy fats and fiber.</td>
+                    <td>576 calories per 100g</td>
+                </tr>
+                <tr>
+                    <td>Salmon</td>
+                    <td>Rich in omega-3 fatty acids and protein.</td>
+                    <td>208 calories per 100g</td>
+                </tr>
+            </table>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2024 Healthy Eating. All rights reserved.</p>
+        <p>Address: 123 Calle Perdon, Talavera City</p>
+        <p>Phone: +1 234 567 8900</p>
+    </footer>
+
+</body>
+</html>
